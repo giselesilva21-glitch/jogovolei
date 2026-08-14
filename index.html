@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vôlei Mania - Blog de Vôlei</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">🏐 Vôlei Mania</div>
+
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#noticias">Notícias</a>
+            <a href="#jogos">Jogos</a>
+            <a href="#sobre">Sobre</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="inicio" class="hero">
+            <div>
+                <h1>O mundo do vôlei em um só lugar!</h1>
+                <p>
+                    Notícias, resultados, curiosidades e tudo sobre
+                    os melhores jogos de vôlei.
+                </p>
+                <button onclick="mostrarMensagem()">
+                    Confira as novidades
+                </button>
+            </div>
+        </section>
+
+        <section id="noticias">
+            <h2>📰 Últimas notícias</h2>
+
+            <div class="cards">
+
+                <article class="card">
+                    <div class="imagem">🏐</div>
+                    <h3>Grande partida de vôlei</h3>
+                    <p>
+                        Confira os principais momentos da última partida
+                        e os destaques dos jogadores.
+                    </p>
+                    <button onclick="lerNoticia('Grande partida de vôlei')">
+                        Ler notícia
+                    </button>
+                </article>
+
+                <article class="card">
+                    <div class="imagem">🏆</div>
+                    <h3>Campeonato chegando</h3>
+                    <p>
+                        Os times estão se preparando para mais uma grande
+                        competição de vôlei.
+                    </p>
+                    <button onclick="lerNoticia('Campeonato chegando')">
+                        Ler notícia
+                    </button>
+                </article>
+
+                <article class="card">
+                    <div class="imagem">🔥</div>
+                    <h3>Jogadores em destaque</h3>
+                    <p>
+                        Veja quais atletas estão chamando atenção
+                        durante a temporada.
+                    </p>
+                    <button onclick="lerNoticia('Jogadores em destaque')">
+                        Ler notícia
+                    </button>
+                </article>
+
+            </div>
+        </section>
+
+        <section id="jogos" class="jogos">
+            <h2>🏐 Próximos jogos</h2>
+
+            <div class="tabela">
+                <div class="jogo">
+                    <span>Time Azul</span>
+                    <strong>VS</strong>
+                    <span>Time Vermelho</span>
+                    <small>Hoje - 19:00</small>
+                </div>
+
+                <div class="jogo">
+                    <span>Vôlei Stars</span>
+                    <strong>VS</strong>
+                    <span>Fênix Vôlei</span>
+                    <small>Amanhã - 20:30</small>
+                </div>
+
+                <div class="jogo">
+                    <span>Águias</span>
+                    <strong>VS</strong>
+                    <span>Tigres</span>
+                    <small>Domingo - 16:00</small>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre" class="sobre">
+            <h2>Sobre o blog</h2>
+            <p>
+                O Vôlei Mania é um blog criado para fãs de vôlei.
+                Aqui você pode acompanhar notícias, jogos, resultados
+                e curiosidades sobre o esporte.
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>🏐 Vôlei Mania © 2026 - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
